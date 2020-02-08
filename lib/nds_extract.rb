@@ -106,7 +106,7 @@ def movies_with_directors_set(source)
   while index < source.length 
     dir_name = source[index][:name]
     dir_movies = source[index][:title]
-      if 
+       
     
     movie_aoa << [dir_name => dir_movies]
   index += 1 
