@@ -108,6 +108,7 @@ def movies_with_directors_set(source)
     index += 1 
     end 
   return movie_aoa
+  binding.pry 
 end
 
 # ----------------    End of Your Code Region --------------------
