@@ -1,6 +1,6 @@
 # Provided, don't edit
 require 'directors_database'
-
+require 'pry'
 # A method we're giving you. This "flattens"  Arrays of Arrays so: [[1,2],
 # [3,4,5], [6]] => [1,2,3,4,5,6].
 
@@ -48,6 +48,13 @@ def movies_with_director_key(name, movies_collection)
   # Array of Hashes where each Hash represents a movie; however, they should all have a
   # :director_name key. This addition can be done by using the provided
   # movie_with_director_name method
+  movie_AoH = []
+  index = 0 
+    while index < movies_collection.length 
+      movie_AoH << {name => movies_collection[index][:title]}
+    index =+ 1 
+    end 
+return movie_AoH  
 end
 
 
