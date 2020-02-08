@@ -107,7 +107,8 @@ def movies_with_directors_set(source)
     dir_name = source[index][:name]
     dir_movies = source[index][:title]
     
-    if !movie_aoa[studios_name]
+    if movie_aoa[index] == dir_name || movie_aoa
+      movie_aoa << 
       result[studios_name] = studios_gross
      else 
        result[studios_name] += studios_gross
