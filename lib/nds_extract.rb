@@ -107,8 +107,9 @@ def movies_with_directors_set(source)
       movie_aoa << source[index][:movies]
     index += 1 
     end 
-  return movie_aoa
   binding.pry 
+  return movie_aoa
+   
 end
 
 # ----------------    End of Your Code Region --------------------
