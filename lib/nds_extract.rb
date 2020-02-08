@@ -104,7 +104,7 @@ def movies_with_directors_set(source)
   movie_aoa = []
   index = 0 
     while index < source.length 
-      movie_aoa << source[index][:movies]
+      movie_aoa << source => source[index][:movies]
     index += 1 
     end 
   binding.pry 
