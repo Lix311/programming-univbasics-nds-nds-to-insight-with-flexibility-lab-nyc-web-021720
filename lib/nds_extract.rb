@@ -107,7 +107,7 @@ def movies_with_directors_set(source)
     dir_name = source[index][:name]
     dir_movies = source[index][:title]
     
-    movie_aoa << dir_name => dir_movies
+    movie_aoa << [dir_name => dir_movies]
   index += 1 
   end 
     
