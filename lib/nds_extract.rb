@@ -56,7 +56,7 @@ def movies_with_director_key(name, movies_collection)
     movie_aoh << name_and_title
     index += 1 
   end 
-binding.pry
+#binding.pry
  return movie_aoh  
 end
 
