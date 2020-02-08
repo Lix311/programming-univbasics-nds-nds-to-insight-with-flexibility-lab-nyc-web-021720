@@ -104,7 +104,7 @@ def movies_with_directors_set(source)
   movie_aoh = []  
   index = 0 
   while index < source.length 
-    dir_name = source[index][:name]
+    dir_name = source[:name]
     dir_movies = source[index][:title]
        binding.pry 
     movies_with_director_key(name, movies_collection)
