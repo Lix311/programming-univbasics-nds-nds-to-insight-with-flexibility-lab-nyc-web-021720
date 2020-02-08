@@ -55,8 +55,8 @@ def movies_with_director_key(name, movies_collection)
     index += 1 
     
     end 
-return movie_AoH 
 binding.pry 
+return movie_AoH 
 end
 
 
