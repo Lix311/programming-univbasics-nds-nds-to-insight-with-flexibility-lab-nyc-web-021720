@@ -55,6 +55,7 @@ def movies_with_director_key(name, movies_collection)
     movie_aoh << name_and_title
     index += 1 
   end 
+ binding.pry
  return movie_aoh  
 end
 
@@ -84,14 +85,7 @@ def movies_with_directors_set(source)
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
-  movie_aoa = []
-  index = 0 
-  while index < source.length 
-    movie_aoa << source[index][:title]
-    index += 1 
-  end 
-binding.pry 
-return movie_aoa      
+      
 end
 
 # ----------------    End of Your Code Region --------------------
