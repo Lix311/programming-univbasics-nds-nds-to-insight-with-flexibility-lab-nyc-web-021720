@@ -90,6 +90,7 @@ def movies_with_directors_set(source)
     movie_aoa << source[index][:title]
     index += 1 
   end 
+binding.pry 
 return movie_aoa      
 end
 
