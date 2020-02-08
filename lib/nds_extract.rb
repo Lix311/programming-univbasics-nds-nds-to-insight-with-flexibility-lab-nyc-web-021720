@@ -107,14 +107,11 @@ def movies_with_directors_set(source)
     dir_name = source[index][:name]
     dir_movies = source[index][:title]
     
-    if movie_aoa[index] == dir_name || movie_aoa
-      movie_aoa << 
-      result[studios_name] = studios_gross
-     else 
-       result[studios_name] += studios_gross
-     end 
-     index += 1 
+    movie_aoa << dir_name
+  index += 1 
+  end 
     
+ binding.pry    
 end
 
 # ----------------    End of Your Code Region --------------------
