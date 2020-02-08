@@ -56,7 +56,7 @@ def movies_with_director_key(name, movies_collection)
     movie_aoh << name_and_title
     index += 1 
   end 
-binding.pry
+#binding.pry
  return movie_aoh  
 end
 
@@ -106,6 +106,7 @@ def movies_with_directors_set(source)
   while index < source.length 
     dir_name = source[index][:name]
     dir_movies = source[index][:title]
+      if 
     
     movie_aoa << [dir_name => dir_movies]
   index += 1 
