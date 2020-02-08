@@ -52,7 +52,7 @@ def movies_with_director_key(name, movies_collection)
   index = 0 
     while index < movies_collection.length 
       movie_AoH << {name => movies_collection[index][:title]}
-    index =+ 1 
+    index += 1 
     binding.pry 
     end 
 return movie_AoH  
