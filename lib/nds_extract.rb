@@ -107,7 +107,6 @@ def movies_with_directors_set(source)
       movie_aoa << movies_with_director_key(source[index][:name],source[index][:movies])
     index += 1 
     end 
-  #binding.pry 
   return movie_aoa
    
 end
